@@ -9,7 +9,7 @@ nav_order: 2
 
 Textinho introdutório.
 
-## Table of contents
+## Sumário
 {: .no_toc .text-delta }
 
 1. TOC
