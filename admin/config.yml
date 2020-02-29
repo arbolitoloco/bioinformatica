@@ -4,7 +4,7 @@ backend:
   # name: git-gateway # open-source API that acts as a proxy between authenticated users of site and repo
   # branch: master # Branch to update (optional; defaults to master)
   name: github
-  repo: arbolitoloco/bioinformatica.github.io
+  repo: arbolitoloco/bioinformatica
   site_domain: bioinformatica.netlify.com
 # Adds interface for drafting, reviewing, and approving posts
 publish_mode: editorial_workflow
