@@ -14,6 +14,11 @@
         {% include nav.html %}
       </div>
       <footer role="contentinfo" class="site-footer">
+        <!-- Netlify CMS menu:
+        Log in / Sign up - when the user is not logged in
+        Username / Log out - when the user is logged in
+        -->
+        <div data-netlify-identity-menu></div>
         <p class="text-small text-grey-dk-000 mb-0">Feito por <a href="http://laura.rochaprado.com">Laura Rocha Prado</a> &middot; 2019. </p>
         <!--         <p class="text-small text-grey-dk-000 mb-0"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p> -->
         <p class="text-small text-grey-dk-000 mb-0">Powered by <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a> Jekyll theme and <a href="https://github.com">GitHub</a>.</p>
@@ -37,11 +42,6 @@
             {% endfor %}
           </ul>
           {% endif %}
-          <!-- Netlify CMS menu:
-        Log in / Sign up - when the user is not logged in
-        Username / Log out - when the user is logged in
-        -->
-          <div data-netlify-identity-menu></div>
         </div>
       </div>
       <div class="main-content">
