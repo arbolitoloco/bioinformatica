@@ -7,15 +7,6 @@
 
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ relBase }}/assets/css/just-the-docs.css"> {% if site.ga_tracking != nil %}
-  <!-- include the netlify cms authentication widget -->
-  <script>
-    window.ga = window.ga || function() {
-      (ga.q = ga.q || []).push(arguments)
-    };
-    ga.l = +new Date;
-    ga('create', '{{ site.ga_tracking }}', '{{ site.url }}');
-    ga('send', 'pageview');
-  </script>
   <script async src="https://www.google-analytics.com/analytics.js"></script>
   {% endif %} {% if site.search_enabled != nil %}
   <script type="text/javascript" src="{{ relBase }}/assets/js/vendor/lunr.min.js"></script>
